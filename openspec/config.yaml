@@ -1,0 +1,29 @@
+schema: spec-driven
+
+context: |
+  技術棧：Flutter、Riverpod、Supabase、Supabase Auth
+  代碼風格：MVVM、Dart 遵循官方 lints、SQL 資料庫使用 snake_case、透過 Supabase RLS 控管讀寫權限
+  專案類型：社交記帳
+rules:
+  specs:
+    - 使用 Given/When/Then 格式
+  tasks:
+    - 每個 task 要能在 30 分鐘內完成
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+# Add your tech stack, conventions, style guides, domain knowledge, etc.
+# Example:
+#   context: |
+#     Tech stack: TypeScript, React, Node.js
+#     We use conventional commits
+#     Domain: e-commerce platform
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
